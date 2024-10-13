@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>İEÖ - Yapılacaklar Listesi</h1>
+      <div class="container-list">
+        <input
+          type="text"
+          placeholder="Bugün Neler Yapacaksın..."
+          id="todo-input"
+        />
+        <button onclick="addTodo()">
+          <i class="bi bi-plus"></i>
+        </button>
+      </div>
+      <ul id="todo-list">
+        <!-- <li>
+          <span>//</span>
+          <button><i class="bi bi-check2"></i></button>
+          <button><i class="bi bi-pencil-square"></i></button>
+          <button><i class="bi bi-trash"></i></button>
+        </li> -->
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
